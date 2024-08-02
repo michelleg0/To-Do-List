@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#taskContainer {
+    background-color: #e2f0d9;
+    border: 2px solid #567d46;
+    padding: 20px;
+    border-radius: 10px;
+    /* Rounded corners */
+    max-width: 300px;
+    margin: 0 auto;
+    /* Center the container */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    /* Center the title */
+    margin-top: 0;
+    /* Remove top margin */
+    margin-bottom: 20px;
+    /* Add space between title and tasks */
+}
+
+input,
+button {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    /* Rounded corners for input and button */
+    border: 1px solid #ccc;
+    /* Border for input */
+}
+
+button {
+    background-color: #567d46;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #365d25;
+    /* Darker green on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #d9e2cf;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Rounded corners */
+    display: flex;
+    justify-content: space-between;
+    /* Space between task text and button */
+}
+
+li button {
+    background-color: #567d46;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+li button:hover {
+    background-color: #365d25;
+}
